@@ -397,6 +397,9 @@ adhocracy.static_index_path = index
 # Show Facebook / Twitter / G+ buttons
 # adhocracy.show_social_buttons = False
 
+# Use kotti API call to render navigation
+adhocracy.use_kotti_navigation = false
+
 {% if parts.get("adhocracy_service_conf", False) %}
 
 # allow to add mediafiles to proposals
